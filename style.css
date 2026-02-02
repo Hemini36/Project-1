@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.item {
+  margin: 10px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  background-color: orchid;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(54, 10, 54);
+}
+
+.remove-btn {
+  background-color: darkgreen;
+}
+
+.remove-btn:hover {
+  background-color: brown;
+}
+
+#receipt {
+  font-family: monospace;   
+  border: 1px solid black;
+  display: inline-block;
+  padding: 15px;
+  text-align: left;
+  white-space: pre;         
+  margin-top: 20px;
+}
